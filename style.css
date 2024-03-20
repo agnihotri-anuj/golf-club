@@ -440,6 +440,7 @@ video {
   line-height: 20px;
   margin-bottom: 8px;
 }
+
 /* Signup Form */
 .signup-form {
   background-color: #f8f9fa;
@@ -501,4 +502,31 @@ body {
 
 .site-footer p {
   margin-bottom: 0;
+}
+
+/* Custom Styles for Signup Page */
+.signup-form .form-group label {
+  font-weight: 600;
+}
+
+.signup-form .form-text {
+  font-size: 0.9rem;
+}
+
+.signup-form .btn-block {
+  margin-top: 1.5rem;
+}
+
+.signup-form p {
+  font-size: 0.9rem;
+}
+
+.signup-form a {
+  color: #28a745;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-form a:hover {
+  text-decoration: underline;
 }
