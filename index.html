@@ -22,8 +22,32 @@
     src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/logo-white.svg"
     alt=""
   />
-  <a href="login.html"><h4>LOGIN</h4></a>
-  <a href="signup.html"><h4>SIGNUP</h4></a>
+  <!-- Add these divs inside your body -->
+<div id="login-window" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Login</h2>
+    <form id="login-form">
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</div>
+
+<div id="signup-window" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Sign Up</h2>
+    <form id="signup-form">
+      <input type="text" placeholder="Username" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</div>
+
   <h4>TOPTRACER RANGE</h4>
   <h4>GOLF LESSONS</h4>
   <h4>ADVENTURE GOLF</h4>
