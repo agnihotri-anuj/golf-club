@@ -440,3 +440,73 @@ video {
   line-height: 20px;
   margin-bottom: 8px;
 }
+/* Login Form */
+.login-form {
+  background-color: #f8f9fa;
+  padding: 5rem 0;
+}
+
+.login-form .card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.login-form .card-header {
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.login-form .card-body {
+  padding: 2rem;
+}
+
+.login-form .form-control {
+  border-radius: 0;
+}
+
+.login-form .btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 0;
+}
+
+.login-form .btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+/* Signup Form */
+.signup-form {
+  background-color: #f8f9fa;
+  padding: 5rem 0;
+}
+
+.signup-form .card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.signup-form .card-header {
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.signup-form .card-body {
+  padding: 2rem;
+}
+
+.signup-form .form-control {
+  border-radius: 0;
+}
+
+.signup-form .btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 0;
+}
+
+.signup-form .btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+
