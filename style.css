@@ -89,6 +89,7 @@ body {
   width: calc(100% - 20px); /* Updated */
   padding: 10px;
   font-size: 16px;
+  color: black;
   border-radius: 10px;
   border: none;
   outline: none;
