@@ -98,10 +98,7 @@ body {
   padding-right: 30px;
 }
 
-/* Hide the default arrow icon for the date picker */
-.input-group input[type="date"]::-webkit-calendar-picker-indicator {
-  display: none;
-}
+
 
 /* Style the time picker icon */
 .input-group input[type="time"] {
