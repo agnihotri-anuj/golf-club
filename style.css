@@ -439,74 +439,76 @@ video {
   font-weight: 600;
   line-height: 20px;
   margin-bottom: 8px;
-}
-/* Login Form */
-.login-form {
-  background-color: #f8f9fa;
-  padding: 5rem 0;
-}
-
-.login-form .card {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-}
-
-.login-form .card-header {
-  background-color: #28a745;
-  color: #fff;
-  border-radius: 0.25rem 0.25rem 0 0;
-}
-
-.login-form .card-body {
-  padding: 2rem;
-}
-
-.login-form .form-control {
-  border-radius: 0;
-}
-
-.login-form .btn-primary {
-  background-color: #28a745;
-  border-color: #28a745;
-  border-radius: 0;
-}
-
-.login-form .btn-primary:hover {
-  background-color: #218838;
-  border-color: #1e7e34;
-}
-/* Signup Form */
+}/* Login and Signup Form Styles */
+.login-form,
 .signup-form {
-  background-color: #f8f9fa;
-  padding: 5rem 0;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.signup-form .card {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+.login-form h2,
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.signup-form .card-header {
-  background-color: #28a745;
+.login-form form,
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label,
+.signup-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.signup-form input[type="text"],
+.signup-form input[type="password"],
+.signup-form input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.login-form button,
+.signup-form button {
+  background-color: #95c11e;
   color: #fff;
-  border-radius: 0.25rem 0.25rem 0 0;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.signup-form .card-body {
-  padding: 2rem;
+.login-form button:hover,
+.signup-form button:hover {
+  background-color: #7a9d18;
 }
 
-.signup-form .form-control {
-  border-radius: 0;
+.login-form p,
+.signup-form p {
+  text-align: center;
+  margin-top: 20px;
 }
 
-.signup-form .btn-primary {
-  background-color: #28a745;
-  border-color: #28a745;
-  border-radius: 0;
+.login-form a,
+.signup-form a {
+  color: #95c11e;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.signup-form .btn-primary:hover {
-  background-color: #218838;
-  border-color: #1e7e34;
+.login-form a:hover,
+.signup-form a:hover {
+  color: #7a9d18;
 }
-
-
