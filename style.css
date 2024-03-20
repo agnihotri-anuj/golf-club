@@ -58,14 +58,21 @@ body {
   text-align: center;
 }
 
-#time-slot h2 {
-  font-size: 30px;
-  font-weight: 800;
-  margin-bottom: 30px;
+#time-slot {
+  background-color: #95c11e;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 50px auto;
+  max-width: 600px;
+  text-align: center;
+  position: relative; /* Added */
+  z-index: 10; /* Added */
 }
 
 .input-group {
   margin-bottom: 20px;
+  position: relative; /* Added */
+  z-index: 10; /* Added */
 }
 
 .input-group label {
@@ -73,16 +80,20 @@ body {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
+  position: relative; /* Added */
+  z-index: 10; /* Added */
 }
 
 .input-group input[type="date"],
 .input-group input[type="time"] {
-  width: 100%;
+  width: calc(100% - 20px); /* Updated */
   padding: 10px;
   font-size: 16px;
   border-radius: 10px;
   border: none;
   outline: none;
+  position: relative; /* Added */
+  z-index: 10; /* Added */
 }
 
 #book-btn {
@@ -95,11 +106,15 @@ body {
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  position: relative; /* Added */
+  z-index: 10; /* Added */
 }
 
 #book-btn:hover {
   background-color: #f0f0f0;
 }
+
+
 
 #nav {
   height: 130px;
