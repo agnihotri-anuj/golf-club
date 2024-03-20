@@ -21,6 +21,13 @@ h4all.forEach(function (elem) {
     crsr.style.backgroundColor = "#95C11E";
   });
 });
+document.getElementById('book-btn').addEventListener('click', function() {
+  var selectedDate = document.getElementById('date').value;
+  var selectedTime = document.getElementById('time').value;
+  console.log('Date:', selectedDate);
+  console.log('Time:', selectedTime);
+  // You can perform further actions here like sending the booking details to a server or displaying a confirmation message.
+});
 
 gsap.to("#nav", {
   backgroundColor: "#000",
